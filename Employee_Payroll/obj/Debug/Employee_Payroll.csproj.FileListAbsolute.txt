@@ -1,0 +1,7 @@
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\bin\Debug\Employee_Payroll.exe.config
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\bin\Debug\Employee_Payroll.exe
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\bin\Debug\Employee_Payroll.pdb
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\obj\Debug\Employee_Payroll.csproj.AssemblyReference.cache
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\obj\Debug\Employee_Payroll.csproj.CoreCompileInputs.cache
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\obj\Debug\Employee_Payroll.exe
+C:\Users\MANIKANTA\Desktop\Employee_Payroll\Employee_Payroll\obj\Debug\Employee_Payroll.pdb
