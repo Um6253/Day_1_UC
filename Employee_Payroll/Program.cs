@@ -4,24 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace uc2_code
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
-            int a = rnd.Next(0, 1);
-            Console.WriteLine(a);
-            if (a == 0)
-            {
-                Console.WriteLine("Absent");
+            int wageRate = 20;
+            int dayHrs = 8;
+            Console.WriteLine("Your daily wage is : " + (Convert.ToInt32(wageRate * dayHrs)));
+            Console.ReadLine();
 
-            }
-            else
-            {
-                Console.WriteLine("Present");
-            }
         }
     }
 }
