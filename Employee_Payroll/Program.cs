@@ -4,24 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace uc4
+namespace UC5
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your role either Fulltime or Partime");
-            String role = Console.ReadLine();
-            switch (role)
-            {
-                case "Fulltime":
-                    Console.WriteLine("Your Wage is 160");
-                    break;
-                case "Partime":
-                    Console.WriteLine("Your wage is 80");
-                    break;
-            }
+            int days = 20;
+            int rate = 20;
+            int hrs = 8;
+            Console.WriteLine("Your wage is " + (Convert.ToInt32(days * hrs * rate)));
             Console.ReadLine();
+
         }
     }
 }
