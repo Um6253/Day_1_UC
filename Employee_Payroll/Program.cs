@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace uc3_code
+namespace uc4
 {
     internal class Program
     {
@@ -12,14 +12,14 @@ namespace uc3_code
         {
             Console.WriteLine("Enter your role either Fulltime or Partime");
             String role = Console.ReadLine();
-
-            if (role == "Fulltime")
+            switch (role)
             {
-                Console.WriteLine($"Your daily wage as {role} is : " + 160);
-            }
-            else
-            {
-                Console.WriteLine($"Your daily wage as {role} is : " + 80);
+                case "Fulltime":
+                    Console.WriteLine("Your Wage is 160");
+                    break;
+                case "Partime":
+                    Console.WriteLine("Your wage is 80");
+                    break;
             }
             Console.ReadLine();
         }
